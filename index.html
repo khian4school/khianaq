@@ -31,6 +31,8 @@ h1 em{font-style:normal;background:linear-gradient(90deg,var(--acc),var(--acc2))
 .ct a b{font-size:clamp(.78rem,2.3dvh,1.12rem);font-weight:700}
 .ct a:hover{transform:translateY(-4px);box-shadow:0 0 36px rgba(111,183,196,.4)}
 @keyframes pulse{50%{box-shadow:0 0 34px rgba(111,183,196,.38)}}
+.more{display:inline-block;margin-top:3dvh;color:var(--bg);background:linear-gradient(90deg,var(--acc),var(--acc2));text-decoration:none;font-weight:600;font-size:clamp(.74rem,2dvh,.95rem);padding:1.2dvh 22px;border-radius:99px;transition:.3s}
+.more:hover{transform:translateY(-3px);box-shadow:0 0 28px rgba(111,183,196,.4)}
 @media(max-width:760px){
  main{grid-template-columns:1fr;grid-template-rows:auto 1fr;gap:2dvh;padding:3dvh 6vw;align-content:center}
  .photo{height:27dvh}
@@ -44,11 +46,12 @@ h1 em{font-style:normal;background:linear-gradient(90deg,var(--acc),var(--acc2))
 <body>
 <div class="orb o1"></div><div class="orb o2"></div>
 <main>
-  <div class="photo"><img src="khian.jpg" alt="Portrait of Khian Angelo Quirimit"></div>
+  <div class="photo"><img src="images/khian.jpg" alt="Portrait of Khian Angelo Quirimit"></div>
   <div class="txt">
     <span class="tag">BSIT · ERP Specialization</span>
     <h1>Khian Angelo <em>Quirimit</em></h1>
     <div class="ct"><a href="mailto:Damnkhian@gmail.com"><small>✉ Email</small><b>Damnkhian@gmail.com</b></a><a href="tel:09768491950"><small>☎ Contact Number</small><b>0976 849 1950</b></a></div>
+    <a class="more" href="biography.html">Biography &amp; personal info →</a>
   </div>
 </main>
 </body>
